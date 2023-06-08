@@ -1,14 +1,9 @@
-var x = 5;
-print(x+5);
-
-for i in 0 to 10 {
-
-    print(10 - i);
-
-}
-for i in 10 .. 20 {
-    if i %2 == 0{
-    print(i);
-    }
-
-}
+//add crafts
+recipes.remove(<item:mysticalagriculture:inferium_helmet>);
+//инфериевый шлем
+recipes.addShaped(<item:mysticalagriculture:inferium_helmet>, 
+[
+[null, <item:mysticalagriculture:inferium_ingot>, null],
+[<item:mysticalagriculture:inferium_gemstone>, <item:botania:manasteel_helmet>, <item:mysticalagriculture:inferium_gemstone>],
+[null, <item:mysticalagriculture:inferium_ingot>, null]
+ ]);
